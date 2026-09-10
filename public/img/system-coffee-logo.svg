@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Steam -->
+  <path d="M38 20 C30 13, 36 8, 30 1" stroke-width="4.5"/>
+  <path d="M56 22 C48 15, 54 10, 48 3" stroke-width="4.5"/>
+  <path d="M74 20 C66 13, 72 8, 66 1" stroke-width="4.5"/>
+  <!-- Lid top dome -->
+  <path d="M34 34 C36 27, 42 24, 56 24 C70 24, 76 27, 78 34" stroke-width="4.5"/>
+  <!-- Lid band / brim -->
+  <path d="M30 34 L82 34" stroke-width="5"/>
+  <!-- Cup body -->
+  <path d="M34 38 C36 66, 42 86, 56 86 C70 86, 76 66, 78 38" stroke-width="4.5"/>
+  <!-- Handle -->
+  <path d="M78 46 C92 48, 92 64, 78 66" stroke-width="4.5"/>
+  <!-- Center mini cup icon -->
+  <path d="M46 60 L66 60" stroke-width="3.5"/>
+  <path d="M50 54 L62 54" stroke-width="3.5"/>
+  <path d="M56 48 L56 68" stroke-width="3.5"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg id="coffee-logo" data-name="Coffee Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <radialGradient id="ring" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#6F4E37"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </radialGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8D6E63"/>
+      <stop offset="100%" stop-color="#5D4037"/>
+    </linearGradient>
+    <linearGradient id="saucerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A1887F"/>
+      <stop offset="100%" stop-color="#6F4E37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background ring -->
+  <circle cx="500" cy="500" r="470" fill="url(#ring)"/>
+  <circle cx="500" cy="500" r="470" fill="none" stroke="#C8A96A" stroke-width="14" opacity="0.5"/>
+
+  <!-- Steam -->
+  <path d="M430 300 q-12 -35 10 -60" stroke="#fff" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M500 285 q-12 -35 10 -60" stroke="#fff" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <path d="M570 300 q-12 -35 10 -60" stroke="#fff" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- Saucer -->
+  <ellipse cx="500" cy="720" rx="320" ry="55" fill="url(#saucerGrad)"/>
+  <ellipse cx="500" cy="712" rx="280" ry="38" fill="#5D4037"/>
+
+  <!-- Cup body -->
+  <path d="M330 430 h340 v150 q0 130 -170 130 q-170 0 -170 -130 z" fill="url(#cup)"/>
+  <path d="M330 430 h340 v30 h-340 z" fill="#A1887F"/>
+
+  <!-- Cup handle -->
+  <path d="M670 480 h45 q55 0 55 75 q0 75 -55 75 h-45" fill="none" stroke="url(#cup)" stroke-width="38" stroke-linecap="round"/>
+
+  <!-- Coffee surface -->
+  <ellipse cx="500" cy="430" rx="170" ry="32" fill="#3E2723"/>
+  <ellipse cx="490" cy="425" rx="130" ry="22" fill="#4E342E" opacity="0.8"/>
+
+  <!-- Coffee highlight -->
+  <ellipse cx="450" cy="520" rx="90" ry="120" fill="#fff" opacity="0.08"/>
+</svg>
